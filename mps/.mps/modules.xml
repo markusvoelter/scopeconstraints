@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MPSProject">
+    <projectModules>
+      <modulePath path="$PROJECT_DIR$/languages/scopeconstraints/runtime/scopeconstraints.runtime.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/scopeconstraints/sandbox/scopeconstraints.sandbox.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/scopeconstraints/scopeconstraints.mpl" folder="" />
+    </projectModules>
+  </component>
+</project>
