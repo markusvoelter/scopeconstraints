@@ -1,0 +1,3 @@
+module A { def a = 4 }
+module B { import A def b = a }
+

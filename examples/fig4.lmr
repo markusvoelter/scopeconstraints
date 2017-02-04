@@ -1,0 +1,4 @@
+record B {}
+record A { x : B } 
+def a = ( new A { x = new B{} } ) 
+def y = ( a.x )
