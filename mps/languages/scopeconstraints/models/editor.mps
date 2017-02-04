@@ -488,10 +488,13 @@
         <property role="3F0ifm" value=")" />
       </node>
       <node concept="3F0ifn" id="3aPPYyxCMED" role="3EZMnx">
-        <property role="3F0ifm" value="=" />
+        <property role="3F0ifm" value="{" />
       </node>
       <node concept="3F1sOY" id="3aPPYyxCMF2" role="3EZMnx">
         <ref role="1NtTu8" to="gbib:3aPPYyxCMBM" resolve="body" />
+      </node>
+      <node concept="3F0ifn" id="3aPPYyxD8An" role="3EZMnx">
+        <property role="3F0ifm" value="}" />
       </node>
     </node>
   </node>
@@ -505,6 +508,35 @@
           <property role="1Intyy" value="true" />
           <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
         </node>
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="3aPPYyxCZ3k">
+    <property role="3GE5qa" value="exp" />
+    <ref role="1XX52x" to="gbib:3aPPYyxCZ2P" resolve="DefRef" />
+    <node concept="1iCGBv" id="3aPPYyxCZ3m" role="2wV5jI">
+      <ref role="1NtTu8" to="gbib:3aPPYyxCZ2Q" resolve="def" />
+      <node concept="1sVBvm" id="3aPPYyxCZ3o" role="1sWHZn">
+        <node concept="3F0A7n" id="3aPPYyxCZ3A" role="2wV5jI">
+          <property role="1Intyy" value="true" />
+          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="3aPPYyxD8Be">
+    <property role="3GE5qa" value="exp" />
+    <ref role="1XX52x" to="gbib:3aPPYyxD8AB" resolve="FunCall" />
+    <node concept="3EZMnI" id="3aPPYyxD8Bn" role="2wV5jI">
+      <node concept="2iRfu4" id="3aPPYyxD8Bo" role="2iSdaV" />
+      <node concept="3F0ifn" id="3aPPYyxD8Bj" role="3EZMnx">
+        <property role="3F0ifm" value="call" />
+      </node>
+      <node concept="3F1sOY" id="3aPPYyxD8BA" role="3EZMnx">
+        <ref role="1NtTu8" to="gbib:3aPPYyxD8AF" resolve="fun" />
+      </node>
+      <node concept="3F1sOY" id="3aPPYyxD8BN" role="3EZMnx">
+        <ref role="1NtTu8" to="gbib:3aPPYyxD8AI" resolve="arg" />
       </node>
     </node>
   </node>
